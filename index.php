@@ -1,3 +1,9 @@
+<?php
+$string = file_get_contents("dischi.json");
+$discs = json_decode($string, true);
+var_dump($discs)
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
